@@ -1,0 +1,195 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	margin: 0;
+	font-family: 'Alegreya', Georgia, Times, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #DCDADA;
+	background: #0F0F0F;
+}
+
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+section.courses {
+	float: left;
+	width:620px;
+	border-right: 10px solid #eeeeee;}
+	article{
+		clear: both;
+		overflow: auto;
+		width: 100%;}
+	hgroup {
+		margin-top: 65px;}
+	figure{
+		float: left;
+		width:300px;
+		height: 300px;
+		padding: 5px;
+		margin: 20px;
+		border: 1px solid #eeeeee;}
+	figcaption {
+		font-size: 90%;
+		text-align: left;}
+
+
+
+
+
+
+/* links */
+a,
+a:visited {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+}
+
+
+/* ------------------------------------------ */
+/* global navbar */
+
+.global-nav {
+	background: black;
+}
+
+.global-nav ul {
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0.5rem;
+	max-width: 900px;
+}
+
+.global-nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.global-nav a {
+	display: block;
+	padding: 0.25em 0.75em;
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	color: #F0F7F7;
+}
+
+
+
+
+
+/* ------------------------------------------ */
+/* title of the entire story */
+
+.title-area-body {
+	height: 400px;
+	background-image: url('../img/dadaism.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.title-area-text {
+	margin: 0 auto 0 auto;
+	padding: 2rem 1rem 0 1rem;
+	max-width: 900px;
+}
+
+
+
+.title-area-text p {
+	margin: 0;
+	font-family: "Grasshopper", ;
+	font-size: 10em;
+	color: red;
+}
+
+.dadada {
+	float: left;
+	width: 620px;
+	margin: 70px;
+}
+
+.history {
+	float: left;
+	width: 620px;
+	margin: 70px;
+}
+
+.art {
+	float: left;
+	width: 600px;
+	margin: 5px;
+}
+
+.vv {
+	float: right;
+	width: 800px;
+	margin: 100px;
+}
+
+.video{
+	float: right;
+	width: 830px;
+	margin:10px;
+}
+
+.comments{
+	float: right;
+	width: 1000px;
+	margin:200px;
+}
+
+/* wider screens */
+@media (min-width: 690px) {
+
+	.title-area-body {
+		padding: 3rem 1rem 0 1rem;
+		height: 700px;
+	}
+
+
+
+}
+
+
+/* ------------------------------------------ */
+/* photos and text */
+
+
+
+
+/* wider screens */
